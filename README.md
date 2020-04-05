@@ -5,7 +5,7 @@
 ### Примеры
 
 ### Мануал
-- [Заголовочные файлы Xlib](./blob/master/Conspectus/headers)
+- [Заголовочные файлы Xlib](./Conspectus/headers)
 
 ------------
 #### Сторонние ссылки
