@@ -17,7 +17,7 @@
  ```
 Если программа хочет получить информацию, хранящуюся в структуре Display, она должна вызвать специально созданные для этого макро-определения:
 
-- **ConnectionNumber**(_Display *display_) `Получить номер порта (значение поля fd);`
+- **ConnectionNumber(**_Display *display_**)** `Получить номер порта (значение поля fd);`
 - ProtocolVersion(Display *display) `Получить информацию о версии протокола;`
 - ProtocolRevision(Display *display) `Получить информацию о версии протокола;`
 - ServerVendor(Display *display) `Получить информацию о производителе X-сервера;`
