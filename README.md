@@ -2,6 +2,7 @@
 
 ### Содержание
 - [Соединение с сервиром. Структура Display](./Conspectus/manual/structures/Display.md)
+- [События Events](/Conspectus/Events.md)
 ### Примеры
 
 ### Мануал
