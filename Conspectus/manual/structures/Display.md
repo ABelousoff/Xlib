@@ -55,7 +55,7 @@ int main(){
 }
 ```
 Makefile
-```bash
+```Makefile
 start:
  g++ -o app win.cpp -lX11
 ```
