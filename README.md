@@ -1,7 +1,7 @@
 # Xlib конспекты
 
 ### Содержание
-- [Соединение с сервиром. Структура Dislay](./Conspectus/manual/structures/Display.md)
+- [Соединение с сервиром. Структура Display](./Conspectus/manual/structures/Display.md)
 ### Примеры
 
 ### Мануал
