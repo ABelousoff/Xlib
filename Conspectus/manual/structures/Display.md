@@ -15,3 +15,14 @@
  int  default_screen;          /* Экран по-умолчанию */
  int  nscreens;                /* Количество экранов на сервере */
  ```
+Если программа хочет получить информацию, хранящуюся в структуре Display, она должна вызвать специально созданные для этого макро-определения:
+
+- ConnectionNumber(Display *display) `Получить номер порта (значение поля fd);`
+- ProtocolVersion(Display *display) `Получить информацию о версии протокола;`
+- ProtocolRevision(Display *display) `Получить информацию о версии протокола;`
+- ServerVendor(Display *display) `Получить информацию о производителе X-сервера;`
+- VendorRelease(Display *display) `Получить информацию о версии X-сервера;`
+- DisplayString(Display *display) `Вернуть строку, которая была использована вызовом XOpenDisplay при установлении соединения с сервером;`
+- ScreenCount(Display *display) `Получить информацию о количестве экранов на X-сервере;`
+- DefaultScreen(Display *display) `Получить экран, используемый по-умолчанию.`
+- RootWindow(Display *display, int screen_number) `Получить индентификатор корневого окна для указанного дисплея и экрана.`
