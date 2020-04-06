@@ -38,3 +38,5 @@
 
 ## Обработка событий (Event processing)
 
+## Полезные ссылки
+- [ ] [События в системе X Window](http://swsys.ru/index.php?page=article&id=328)
