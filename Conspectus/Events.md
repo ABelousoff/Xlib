@@ -3,6 +3,7 @@
 - [ ] [Событийные структуры (Event structures)](./Events.md#Событийные-структуры-Event-structures)
 - [ ] [Маски событий (Event masks)](./Events.md#Маски-событий-Event-masks)
 - [ ] [Обработка событий (Event processing)](./Events.md#Обработка-событий-Event-processing))
+- [ ] [Полезные ссылки](./Events.md#Полезные-ссылки)
 ------------
 ## Типы событий (Event types)
 
