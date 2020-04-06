@@ -18,11 +18,11 @@
 Если программа хочет получить информацию, хранящуюся в структуре Display, она должна вызвать специально созданные для этого макро-определения:
 
 - **ConnectionNumber(**_Display *display_**)** `Получить номер порта (значение поля fd);`
-- ProtocolVersion(Display *display) `Получить информацию о версии протокола;`
-- ProtocolRevision(Display *display) `Получить информацию о версии протокола;`
-- ServerVendor(Display *display) `Получить информацию о производителе X-сервера;`
-- VendorRelease(Display *display) `Получить информацию о версии X-сервера;`
-- DisplayString(Display *display) `Вернуть строку, которая была использована вызовом XOpenDisplay при установлении соединения с сервером;`
-- ScreenCount(Display *display) `Получить информацию о количестве экранов на X-сервере;`
-- DefaultScreen(Display *display) `Получить экран, используемый по-умолчанию.`
-- RootWindow(Display *display, int screen_number) `Получить индентификатор корневого окна для указанного дисплея и экрана.`
+- **ProtocolVersion(**_Display *display_**)** `Получить информацию о версии протокола;`
+- **ProtocolRevision(**_Display *display_**)** `Получить информацию о версии протокола;`
+- **ServerVendor(**_Display *display_**)** `Получить информацию о производителе X-сервера;`
+- **VendorRelease(**_Display *display_**)** `Получить информацию о версии X-сервера;`
+- **DisplayString(**_Display *display_**)** `Вернуть строку, которая была использована вызовом XOpenDisplay при установлении соединения с сервером;`
+- **ScreenCount(**_Display *display_**)** `Получить информацию о количестве экранов на X-сервере;`
+- **DefaultScreen(**_Display *display_**)** `Получить экран, используемый по-умолчанию.`
+- **RootWindow(**_Display *display, int screen_number_**)** `Получить индентификатор корневого окна для указанного дисплея и экрана.`
