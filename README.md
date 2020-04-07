@@ -1,6 +1,7 @@
 # Xlib конспекты
 
 ### Содержание
+- [Типа введения. Клиентская и Серверная модели X Window System](./Conspectus/README.md)
 - [Соединение с сервиром. Структура Display](./Conspectus/manual/structures/Display.md)
 - [События Events](/Conspectus/Events.md)
 ### Примеры
