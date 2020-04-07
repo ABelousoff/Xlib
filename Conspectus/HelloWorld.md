@@ -8,9 +8,9 @@ Display *display; // Указатель на структуру display.
 Window parent;    // Идентификатор существующего окна, которое должно быть родителем нового окна.
 int x; 	          // X Позиция верхнего левого угла окна (слева от экрана в px).
 int y; 	          // y Позиция верхнего левого угла окна (сверху от экрана в px).
-unsigned int width;	          // ширина окна
-unsigned int height;	        // высота окна
-unsigned int border_width;	  // толщина границы окна
-unsigned long border_color;	  // цвет границы окна
-uncigned long background;	    // цвет фона окна
+unsigned int width;         // ширина окна
+unsigned int height;        // высота окна
+unsigned int border_width;  // толщина границы окна
+unsigned long border_color; // цвет границы окна
+unsigned long background;   // цвет фона окна
 ```
