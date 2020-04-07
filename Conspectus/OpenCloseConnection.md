@@ -8,7 +8,7 @@
 
 Display *display;
 display = XOpenDisplay("simey:0");
-display = XopenDisplay(NULL); // На локальной машине
+display = XOpenDisplay(NULL); // На локальной машине
 
 if(display == NULL) //Соединение не установленно
 
