@@ -14,3 +14,34 @@ unsigned int border_width;  // толщина границы окна
 unsigned long border_color; // цвет границы окна
 unsigned long background;   // цвет фона окна
 ```
+Давайте создадим простое окно, ширина которого составляет 1/3 ширины экрана, высота составляет 1/3 высоты экрана, цвет фона - белый, цвет рамки - черный, а ширина рамки - 2 пикселя.
+
+```C++
+/ * эта переменная будет хранить идентификатор вновь созданного окна. * /
+Window win;
+
+/ * эти переменные будут хранить ширину и высоту окна. * /
+int win_width;
+int win_height;
+
+/ * эти переменные будут хранить местоположение окна. * /
+int win_x = 0;
+int win_y = 0;
+
+
+/ * вычислить ширину и высоту окна. * /
+win_width = DisplayWidth(display, screen_num) / 3;
+win_height = DisplayHeight(display, screen_num) / 3	;
+
+/ * создать окно, как указано ранее. * /
+win = XCreateSimpleWindow(
+	RootWindow(display, screen_num),
+	win_x, win_y,
+	win_width, win_height,
+	win_border_width, BlackPixel(display, screen_num),
+	WhitePixsel(display, screen_num)
+);
+```
+
+Тот факт, что мы создали окно, не означает, что оно будет нарисовано на экране. По умолчанию вновь созданные окна не отображаются на экране - они невидимы. Чтобы сделать наше окно видимым, мы используем функцию `XMapWindow()` следующим образом:
+`XMapWindow(display, win);`
