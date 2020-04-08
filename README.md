@@ -6,7 +6,7 @@
 - [Соединение с сервиром. Структура Display](./Conspectus/manual/structures/Display.md)
 - [События Events](/Conspectus/Events.md)
 ### Примеры
-
+- [Простое окно по размерам экрана. helloworld.cpp](.//Examples/win00.cpp)
 ### Мануал
 - [Заголовочные файлы Xlib](./Conspectus/headers.md)
 
