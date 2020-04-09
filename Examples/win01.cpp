@@ -66,7 +66,7 @@ int main(int argc, char **argv){
             XSetForeground(d, gc, color.pixel);
             XFillRectangle(d, w, gc, 100, 50, 600, 500);
         }
-        if(e.xbutton.button == 3){
+        if(e.xbutton.button == 3){//Выход из программы нажатием правой кнопкой мыши
             break;
         }
     }
