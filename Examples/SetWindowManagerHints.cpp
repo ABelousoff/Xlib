@@ -42,3 +42,9 @@ static void SetWindowManagerHints(
         &size_hints, &wm_hints, &class_hint
     );
 }
+// Вызов функции
+SetWindowManagerHints(
+    d, PRG_CLASS, argv, argc,
+    w, X, Y, WIDTH, HEIGHT, WIDTH_MIN, HEIGHT_MIN,
+    TITLE, ICON_TITLE, 0
+);
