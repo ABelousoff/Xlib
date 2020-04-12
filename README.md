@@ -20,4 +20,5 @@
     - [ ] [3D Graphics and Animation Programming Tutorial in C :arrow_forward:](https://www.youtube.com/watch?v=C-jp-_Dlz6E&list=PLypxmOPCOkHXgEHW_TrzYcIkpWiuRxiL_)
     - [ ] [Xlib - C Language X Interface :arrow_upper_right:](https://www.x.org/releases/X11R7.6/doc/libX11/specs/libX11/libX11.html)
     - [ ] [The X Window system :arrow_upper_right:](https://tronche.com/gui/x/)
+    - [ ] [OpenGL 2.1 :arrow_upper_right:](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/)
 ------------
