@@ -10,3 +10,5 @@
 > Простая программа OpenGL. Треугольник
 > `g++ -o app opengl01.cpp -lX11 -lGL -lGLU`
 > [opengl01.cpp](./OpenGL/opengl01.cpp)
+
+> OpenGL Вращение треугольника [opengl02.cpp](./OpenGL/opengl02.cpp)
